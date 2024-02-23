@@ -20,6 +20,8 @@ let data = {
     }
 }
 
+console.log(data.Sophia.study[1].secondary[0]["school_name"]);
+
 // task-2: console.log output: Petersburg, Herry
 
 let students = {
@@ -47,6 +49,9 @@ let students = {
     }
 }
 
+console.log(students["2222"].address.city);
+console.log(students["3333"].name);
+
 // task-3: access and then show habluder adda
 // show output beginner
 
@@ -73,3 +78,6 @@ let data2 = {
             }
         ]
 }
+
+console.log(data2.data[0].bookDetails.name);
+console.log(data2.data[1].bookCategory);
